@@ -1,5 +1,5 @@
 from rest_framework.permissions import SAFE_METHODS, BasePermission
-
+#SAFE_METHODS = {GET,HEAD,OPTIONS}
 
 def _has_role(user, role):
     """True if the user is logged in and has the given role."""
